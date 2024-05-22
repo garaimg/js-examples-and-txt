@@ -1,0 +1,45 @@
+Dominar dos partes. Teórica, práctica.
+
+PARTE DEL TEST
+
+Teoría test, 40 preguntas, aceptar 1 pto fallar -0.25. Cualquier cosa de clase HTML, CSS, Ingeniería web, Seguridad,
+Python, programación, JS, Django, DOM/BOM, COmo harías mediante JS cambiar el color de ...
+Accesibilidad web...
+Que ocurre dentro de Django para que salga el html. Proceso interior. Entender.
+Clases de django, rutas, si hemos hecho el proyecto debería de saberlo.
+4 opciones, solo 1 correcta. 33 minutos. 40 preguntas. Un 5 o más para aprobar.
+Solo abierto en el navegador el test de ALUD.
+Sintaxis de JS...
+Forma más correcta de eventos, directamente con atributo o el elementoquesea.addEventListener();
+OWASP, Introducción a IW.
+
+PARTE PRÁCTICA
+
+Mini aplicación Django.
+Gestión de estudiantes, una pantalla listado de registros a modo de tabla, poder ir a los detalles, poder crear uno
+nuevo, formulario, crear, que lo pueda borrar o actualizar... Mostras datos, ir al detalle, crear, actualizar y eliminar.
+Estudiantes y asignaturas, una relación. Por cada estudiante varias asignaturas.
+Proyecto, llevarlo a una serie de mínimos. Inventar los enunciados.
+Gestión de libros de una biblioteca. Gente que lo ha reservado...
+Que vaya con runserver!!!! Importante. Enviar por ALUD. Ni acceso a internet ni nada. Editor limpio sin extensiones,
+entras y desarrollas y ya. Nada adicional a lo que te da el editor.
+Básico, unas pocas rutas. Pycharm vale. Algo que no debemos, al hoyo.
+Fallos a nivel de calidad del código, penalizar. Fallos, resta.
+Abrir terminal, crear proyecto, crear app...
+Cada vez que hagamos funcionalidad decir, marca que lo tenemos en funcionamiento. No valorar nada que no le hemos enseñado.
+Lo tengo hecho, en el examen no se lo hemos dicho, no lo corrige.
+Vamos viendo el progreso, seguir orden en la aplicación. Así sabemos como lo hemos hecho más o menos.
+Funcionalidades de una en una.
+
+Datos de prueba, con admin de Django. superuser
+Comentao bien, pa saber.
+Menú para navegar siempre presentre, como un nav.
+Menú fijo en la página para volver al listado. Tabla, tabla, lista, lista.
+nada de CSS ni JS, SOLO DJANGO.
+Herencia en plantillas, plantilla base y heredar.
+Utilizar ListView, CreateView, DetailView. Lista basadas en clases mejor!!
+Nombres de clases en minúsculas MAL.
+2 horas y media examen completo.
+2 horas aprox. La parte práctica. Ni acceso a internet. Puede permitir cierta documentación de ayuda. Un import que sea
+memorizar... Tener como documentación de apoyo, dar esa posibilidad. El Lunes lo tiene que tener ya.
+Documentacion con imports.

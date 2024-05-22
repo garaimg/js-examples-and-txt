@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hands on JS! (3rd part)</title>
+    <style>
+        body {
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+<h1>Aprendiendo sobre listeners</h1>
+<h2 id="subtitulo">Añadir eventos (pasa el ratón por encima y mira la consola)</h2>
+<button class="boton">Haz click aquí</button>
+<hr>
+
+<script>
+
+    function saludar(event) {
+        // Crea un alert que saque por pantalla el mensaje "Hola!"
+        alert("Hola!");
+    }
+
+    function clickar(event) {
+        // Crea un alert que saque por pantalla el texto del botón (propiedad textContent del event.currentTarget
+        let textoboton = event.currentTarget.textContent
+        alert("Texto: " + textoboton);
+    }
+
+    /* EJERCICIO 1 */
+    /* Selecciona el elemento con id "subtitulo" y añádele
+    un evento de tipo "mouseover". Tendrá que llamar a la
+    función salurdar() */
+    let subtitulo = document.getElementById('subtitulo');
+    subtitulo.addEventListener('mouseover', saludar);
+
+    /* EJERCICIO 2 */
+    /* Selecciona el boton y añádele un evento de tipo "click".
+    Tendrá que llamar a la función clickar() */
+
+    let boton = document.getElementsByClassName('boton')[0];
+    boton.addEventListener('click', clickar);
+
+</script>
+</body>
+</html>

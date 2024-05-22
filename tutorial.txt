@@ -1,0 +1,41 @@
+Click derecho, inspeccionar, usar console para pruebas en el html directamente.
+
+Depurador, file:// están los .js , se pueden depurar con endpoint, muestra lo que tienen las variables...
+Click derecho, abrir expresión en vigilancia, ir vigilando la variable.
+BOM -> Acceder a todo lo que no es el contenido, bloquear o permitir, acceder a la ubicación...
+DOM -> Representación de nuestra página en forma de árbol (html, head, body...)
+Navegar por el árbol para realizar lo que nos interese. El navegador interpreta el html como un árbol.
+Se puede ver en html tree generator.
+Elementos tienen nodos. Acceder al padre parentNode, al hijo childNode...
+Utilizando javascript puedo navegar en el árbol para hacer lo que quiera en la parte del HTML que me interese.
+JS deja posicionarse en cada elemento por el id, class... Dame el elemento con id = titular
+document.getElementById("logoimage"); // Devuelve el elemento con el Id definido.
+document.getElementById("logoimage").width(500px);
+document.getElementsByClassName("logoimage");
+document.getElementsByClassName("btn")[0].style.backgroundcolor="red"
+document.getElementsByClassName("btn")[2].textcontent()
+document.getElementsByTagName("a") // Devuelve todos los enlaces
+Acceder al texto con textcontent()
+QuerySelector("") -> La propiedad css de lo que quiera seleccionar -> Solo coge el primero, solo si hay uno!!
+Sino usar QuerySelectorAll("")
+document.queryselector("elementoC") -> Para seleccionar lo que tenga ese
+error declaration -> Cambiar el nombre de la variable por consola
+.innerHTML -> Ver que tiene dentro
+contenedor.innerHTML = "<h2>Logotipo<h2>", cambia lo que tiene
+También se puede cambiar el textcontent
+let titulo
+table , tr-s y después td-s.
+Si tengo un array tengo que recorrerlo si o si.
+
+El eventListener, si es a nivel de tabla, salta si clico en una celda por ejemplo.
+Si hay más events listeners haría: primero celda, después row, después table.
+Se va propagando hacia arriba. De más detalle a menor.
+
+todo data-*(loquesea) mete eso al dataset de javascript
+Por ejemplo, si he puesto data-id=${id} Puedo acceder mediante dataset.id en JS.
+
+fetch(API_URL).then....
+Asíncrono, se ejecuta lo demás y el fetch si se cumplen sus contratos y ha ido bien ya devolverá lo que tenga que devolver del servidor.
+Si hay un alert despues que no depende del fetch, se ejecuta antes el alert que el fetch, ya que la asíncronía del fetch permite
+seguir realizando otras funciones mientras el fetch se está ejecutando.
+fetch es implementar la tecnología ajax en javascript.
